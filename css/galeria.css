@@ -108,3 +108,17 @@ body{
   display: flex;
   flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 40px 0;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  main > * {
+    width: 100%;
+  }
+}
